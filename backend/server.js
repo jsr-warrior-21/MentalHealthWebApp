@@ -7,8 +7,6 @@ import doctorRouter from "./routes/doctorRoute.js";
 import userRouter from "./routes/userRoutes.js";
 import dotenv from 'dotenv';
 dotenv.config();
-
-
 // app config
 const app = express();
 const port = process.env.PORT || 4000;
